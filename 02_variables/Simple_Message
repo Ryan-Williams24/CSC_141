@@ -1,4 +1,0 @@
-message = "Hello Python Crash Course world!"
-print(message)
-message = "Goodbye Python Crash Course world"
-print(message)
