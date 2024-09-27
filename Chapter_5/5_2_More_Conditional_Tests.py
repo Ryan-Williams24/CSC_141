@@ -1,4 +1,4 @@
-car = 'Reed'
+car = 'Red'
 
 print("\nIs car != 'blue'? I predict True.")
 print(car != 'blue')
