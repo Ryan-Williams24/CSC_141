@@ -20,10 +20,19 @@ invitees.append("Kamala Harris")
 for names in invitees:
     print(names + ", you are invited to dinner!")
 
-print("I can only invite two people for dinner")
+print("\nI can only invite two people for dinner")
 
-for i in invitees: 
-    if removed < [4] :
-        removed.append(i)
-        invitees.pop([i])
-        print(i + ", you have been removed.")
+while len(invitees) > 2:
+    removed_person = invitees.pop()  
+    removed.append(removed_person)   
+    print(removed_person + ", you have been removed from the invite list.")
+
+print("\n")
+
+for person in invitees:
+    print(person + ", you are still invited.")
+
+while invitees:
+    del invitees[-1]
+
+print("\nFinal guest list:", invitees)

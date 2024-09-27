@@ -1,0 +1,19 @@
+places_to_visit = ['Tokyo', 'New York', 'Barcelona', 'Cairo', 'Sydney']
+
+print("\n", places_to_visit)
+print("\n", sorted(places_to_visit))
+print("\n", places_to_visit)
+print("\n", sorted(places_to_visit, reverse=True))
+print("\n", places_to_visit)
+
+places_to_visit.reverse()
+print("\n", places_to_visit)
+
+places_to_visit.reverse()
+print("\n", places_to_visit)
+
+places_to_visit.sort()
+print("\n", places_to_visit)
+
+places_to_visit.sort(reverse=True)
+print("\n", places_to_visit)
