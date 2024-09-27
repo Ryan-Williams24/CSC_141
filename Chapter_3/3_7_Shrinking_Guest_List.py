@@ -14,9 +14,7 @@ for names in invitees:
 print("\nA bigger table has been acquired and more people can be seated.")
 
 invitees.insert(0, "Gerald")
-
 invitees.insert(2, "Deni")
-
 invitees.append("Kamala Harris")
 
 for names in invitees:
