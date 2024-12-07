@@ -1,0 +1,4 @@
+In Python you can create variables and assign values.
+In Python you can define functions to organize code.
+In Python you can use loops to repeat tasks.
+In Python you can handle exceptions to deal with errors.
